@@ -1,0 +1,5 @@
+<div class="chat-container">
+  <textarea [(ngModel)]="userInput"></textarea>
+  <button (click)="sendQuestion()">Send</button>
+  <div [innerHTML]="generatedText"></div>
+</div>
